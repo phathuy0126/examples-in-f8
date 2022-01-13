@@ -1,0 +1,31 @@
+.CardItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border: 1px solid blue;
+    max-width: 260px;
+    padding: 10px;    
+    margin: 10px;
+}
+.CardItem .CardBody .Name {
+    color: blue;
+    font-weight: bold;
+    width: fit-content;
+    margin: 10px auto;    
+}
+.CardItem .CardBody .price {
+    color: red;
+    font-weight: bold;
+    width: fit-content;
+    margin: 10px auto;    
+}
+.CardItem .CardFooter .buynow {
+    padding: 5px 20px;
+    background-color: rgb(255, 72, 163);
+    cursor: pointer;
+    outline: none;
+}
+.CardItem img {
+    width: 200px;
+    height: 200px;
+}
